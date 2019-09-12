@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset=”utf-8”>
+<title>Demo CSS</title>
+
+</head>
+
+<body>
+  <form method="get">
+    <div class='col1'>name:</div>
+    <div class='col2'><input type= "text" name="name" id="name" placeholder="enter you name"></div>
+    <div class='col1'>Type of pet</div>
+    <div class='col2'>
+      dog<input type= "radio" name="petType" class="petType" value='dog'>
+      cat<input type= "radio" name="petType" class="petType" value='cat'>
+      fish<input type= "radio" name="petType" class="petType" value='fish'
+    </div>
+   </form>
+  </body>
+ </head>
+</html>
