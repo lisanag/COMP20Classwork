@@ -16,7 +16,18 @@
       cat<input type= "radio" name="petType" class="petType" value='cat'>
       fish<input type= "radio" name="petType" class="petType" value='fish'
     </div>
+    <div class='col1'>Join e-list?</div>
+    <div class='col2'>
+      <input type= "checkbox" name="join" value='yes'>
+     </div>
+     textarea row=2 cols=20> Send us a message</textarea>
+     How Many:<select name='howMany' id='howMany' multiple='1' size=3>
+     <option value='1'>1</option>
+     <option>2</option>
+     <option>3</option>
+     <option>4</option>
+     </select>
+   </form>
    </form>
   </body>
- </head>
 </html>
